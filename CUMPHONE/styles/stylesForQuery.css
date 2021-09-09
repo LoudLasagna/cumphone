@@ -1,0 +1,175 @@
+
+.background{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 10.94%, rgba(61, 245, 168, 0.9) 100%);
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:-100;
+}
+
+.filter{
+    text-align:center;
+    width:100%;
+    margin-top:150px;
+}
+.filter__text{
+    width:47%;
+    font-size:29px;
+    border: 2px solid #09AA5D;
+    box-sizing: border-box;
+    border-radius: 9px;
+    line-height: 35px;
+}
+.filter_search{
+    text-align:center;
+    width: 79px;
+    height: 43px;
+	border: 0px;
+    background: rgba(0, 255, 133, 0.63);
+    border-radius: 10px;
+}
+.filter__pic{
+    height:20px;
+    width:20px;
+}
+
+.phones {
+	display: flex;
+	flex-direction: column;
+}
+.phone{
+    position:relative;
+    width:80%;
+    height:290px;
+    margin:auto;
+    margin-top:65px;
+    border-radius:34px;
+    background-color:white;
+    color:black;
+    display:flex;
+    font-size:23px;
+    line-height:28px;
+}
+.phone__image{
+    margin:11px 50px 15px 2%;
+    width:224px;
+    height:264px;
+}
+.phone__name{
+    font-size:32px;
+    margin-top:18px;
+    margin-bottom:18px;
+}
+.phone__cost{
+    position:absolute;
+    right:5%;
+    top:38px;
+}
+.phone__sum{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    width: 319px;
+    height: 62px;
+    text-align: center;
+    margin-bottom:70px;
+}
+.phone__cost_buy{
+    width: 319px;
+    height: 72px;
+    background: #49E0A0;
+    border:3px solid;
+    border-color:#359e72;
+    box-sizing: border-box;
+    border-radius: 19px;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color:white;
+}
+@media(max-width:1440){
+    .phone__cost_buy{
+        width: 300px;
+        height: 68px;
+    }
+}
+@media (max-width:1100px){
+    .phone{
+        border-radius:34px;
+        font-size:18px;
+        line-height:23px;
+    }
+    .phone__image{
+        margin:11px 25px 15px 2%;
+    }
+    .phone__name{
+    font-size:28px;
+    margin-top:18px;
+    margin-bottom:16px;
+}
+    .phone__cost{
+        top:170px;
+        right:2%;
+    }
+    .phone__sum{
+       font-size: 37px;
+       line-height: 47px;
+       width: 289px;
+       height: 40px;
+       margin-bottom:10px;
+    }
+    .phone__cost_buy{
+      width: 290px;
+       height: 60px;
+       background: #49E0A0;
+        border: 3px solid;
+       border-color:#359e72;
+       box-sizing: border-box;
+       border-radius: 19px;
+       font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      color:white;
+    }
+}
+@media (max-width:815px){
+    .phone{
+        border-radius:34px;
+        font-size:15px;
+        line-height:20px;
+    }
+    .phone__image{
+        margin:11px 25px 15px 2%;
+    }
+    .phone__name{
+    font-size:25px;
+    margin-top:18px;
+    margin-bottom:18px;
+}
+    .phone__cost{
+        top:170px;
+        right:2%;
+    }
+    .phone__sum{
+       font-size: 37px;
+       line-height: 47px;
+       width: 289px;
+       height: 40px;
+       margin-bottom:10px;
+    }
+    .phone__cost_buy{
+      width: 290px;
+       height: 60px;
+       background: #49E0A0;
+        border: 3px solid;
+       border-color:#359e72;
+       box-sizing: border-box;
+       border-radius: 19px;
+       font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      color:white;
+    }
+}
